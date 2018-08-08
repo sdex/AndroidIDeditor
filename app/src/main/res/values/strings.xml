@@ -1,0 +1,29 @@
+<resources>
+  <string name="app_name">Android ID Editor</string>
+
+  <string name="root_failed_title">Failed to get ROOT permission</string>
+  <string name="root_failed_message">If you have granted permission but still see this message, send the logs to help us to identify and fix the issue</string>
+  <string name="root_failed_send_report">send report</string>
+
+  <string name="error_change_system_android_id">You cannot change this value</string>
+
+  <string name="dialog_input_value_hint">New Android ID</string>
+  <string name="dialog_input_default_value_hint">New default Android ID</string>
+  <string name="dialog_input_value_generate">set random values</string>
+  <string name="dialog_input_value_allow_invalid_values">Allow any digits and letters</string>
+  <string name="dialog_input_value_error_empty">ID cannot be empty</string>
+  <string name="dialog_input_value_error_invalid">ID should be consisted of 16 digits or A-F letters</string>
+  <string name="dialog_input_value_error_invalid_invalid">ID should be consisted of digits or letters</string>
+  <string name="dialog_input_value_error_same">IDs cannot be the same</string>
+
+  <string name="dialog_send_report_title">Send report</string>
+  <string name="dialog_send_report_message">Send logs to help us to identify the issue. We do not collect your personal or any sensitive data</string>
+
+  <string name="options_menu_change_id">Change ID</string>
+  <string name="options_menu_open_app_info">Open app info</string>
+
+  <string name="dialog_finish_message">Reboot your phone to apply changes</string>
+
+  <string name="action_search">Search</string>
+  <string name="action_search_hint">Application name</string>
+</resources>

@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+  compileSdkVersion 27
+  defaultConfig {
+    applicationId "com.sdex.id"
+    minSdkVersion 26
+    targetSdkVersion 27
+    versionCode 1
+    versionName "1.0"
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_1_8
+    targetCompatibility JavaVersion.VERSION_1_8
+  }
+}
+
+dependencies {
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation "com.github.topjohnwu:libsu:1.1.1"
+  implementation "com.android.support:appcompat-v7:$versions.support"
+  implementation "com.android.support:recyclerview-v7:$versions.support"
+  implementation "com.android.support:design:$versions.support"
+  implementation "com.android.support.constraint:constraint-layout:$versions.constraintLayout"
+  implementation "android.arch.lifecycle:extensions:$versions.lifecycle"
+  annotationProcessor "android.arch.lifecycle:compiler:$versions.lifecycle"
+  implementation('org.simpleframework:simple-xml:2.7.1') {
+    exclude module: 'stax'
+    exclude module: 'stax-api'
+    exclude module: 'xpp3'
+  }
+}

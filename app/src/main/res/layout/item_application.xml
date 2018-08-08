@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="?attr/selectableItemBackground"
+  android:orientation="horizontal"
+  android:padding="10dp">
+
+  <ImageView
+    android:id="@+id/app_icon"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:layout_marginEnd="10dp"
+    android:src="@drawable/ic_android"
+    tools:ignore="ContentDescription" />
+
+  <LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <TextView
+      android:id="@+id/app_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="18sp"
+      tools:text="Application" />
+
+    <TextView
+      android:id="@+id/app_package_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:text="com.sdex.app" />
+
+    <TextView
+      android:id="@+id/id_value"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textAllCaps="true"
+      tools:text="789325a8f9e99e" />
+
+  </LinearLayout>
+
+</LinearLayout>
