@@ -9,4 +9,6 @@
 
 [Download APK file](https://github.com/sdex/AndroidIDeditor/releases/tag/1.0)
 
-Do you like the app? [Buy me a coffee](https://buymeacoff.ee/sdex)
+Do you like the app?
+
+<a href="https://www.buymeacoffee.com/sdex"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
