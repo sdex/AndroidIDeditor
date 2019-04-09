@@ -1,0 +1,29 @@
+<resources>
+  <string name="app_name">Android ID 编辑器</string>
+
+  <string name="root_failed_title">无法获得ROOT权限</string>
+  <string name="root_failed_send_report">发送报告</string>
+
+  <string name="error_change_system_android_id">您无法更改此值</string>
+
+  <string name="dialog_input_value_hint">新的 Android ID</string>
+  <string name="dialog_input_default_value_hint">新的 默认Android ID</string>
+  <string name="dialog_input_value_generate">设置随机值</string>
+  <string name="dialog_input_value_error_empty">ID不能为空</string>
+  <string name="dialog_input_value_error_invalid">ID应由16位数字或A-F字母组成</string>
+  <string name="dialog_input_value_error_invalid_invalid">ID应由数字或字母组成</string>
+  <string name="dialog_input_value_error_same">IDs不能重复</string>
+
+  <string name="dialog_send_report_title">发送报告</string>
+
+  <string name="options_menu_change_id">更改ID</string>
+  <string name="options_menu_open_app_info">打开应用信息</string>
+
+  <string name="dialog_finish_message">重启设备以应用更改</string>
+
+  <string name="action_search">搜索</string>
+  <string name="action_search_hint">应用名</string>
+  <string name="dialog_send_report_message">发送日志以帮助我们识别问题。 我们不会收集您的个人或任何敏感数据</string>
+  <string name="dialog_input_value_allow_invalid_values">允许任何数字和字母</string>
+  <string name="root_failed_message">如果您已授予权限但仍看到此消息，请发送日志以帮助我们识别并解决问题</string>
+</resources>
