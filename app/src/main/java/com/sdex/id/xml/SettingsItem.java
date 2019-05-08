@@ -85,7 +85,8 @@ public class SettingsItem {
   }
 
   public boolean canChange() {
-    return !"android".equals(packageName);
+//    return !"android".equals(packageName);
+    return true;
   }
 
   public String toXmlString() {
