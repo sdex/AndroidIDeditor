@@ -23,7 +23,7 @@ values-zh\strings.xml<resources>
 
   <string name="action_search">搜索</string>
   <string name="action_search_hint">应用名</string>
-  <string name="dialog_send_report_message">发送日志以帮助我们识别问题。 我们不会收集您的个人或任何敏感数据</string>
+  <string name="dialog_send_report_message">发送日志以帮助我们识别问题。 我们不会收集您的私人的或任何敏感的数据</string>
   <string name="dialog_input_value_allow_invalid_values">允许任何数字和字母</string>
   <string name="root_failed_message">如果您已授予权限但仍看到此消息，请发送日志以帮助我们识别并解决问题</string>
 </resources>
