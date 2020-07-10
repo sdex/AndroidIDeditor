@@ -1,4 +1,5 @@
-### Android ID editor for oreo
+### Android ID editor
+The app to edit Android ID values for android 8+
 
 #### Requirements
 1. Rooted phone
