@@ -2,7 +2,7 @@
 The app to edit Android ID values for android 8+
 
 #### Requirements
-1. Rooted phone
+1. Rooted phone (systemless root is supported)
 2. Android 8+
 
 #### Denial of responsibility
