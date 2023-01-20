@@ -1,5 +1,5 @@
-### Android ID editor
-The app to edit Android ID values for Android 8-11.
+# Android ID editor for Android 8-11
+The app to edit Android ID values.
 
 #### Requirements
 1. Rooted phone (systemless root is supported)
