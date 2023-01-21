@@ -1,3 +1,6 @@
+### For Android 12 and above: 
+https://github.com/sdex/AndroidIDeditorV2
+
 # Android ID editor for Android 8-11
 The app to edit Android ID values.
 
