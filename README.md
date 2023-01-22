@@ -1,4 +1,4 @@
-# For Android 12 and above: 
+# For Android 12+: 
 https://github.com/sdex/AndroidIDeditorV2
 
 # Android ID editor for Android 8-11
