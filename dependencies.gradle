@@ -4,8 +4,7 @@ ext.app = [
 ]
 
 ext.versions = [
-  support         : '27.1.1',
+  support         : '28.0.0',
   constraintLayout: '1.1.0',
-  playServices    : '12.0.1',
   lifecycle       : '1.1.1'
 ]

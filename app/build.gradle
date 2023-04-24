@@ -1,18 +1,19 @@
 apply plugin: 'com.android.application'
 
 android {
-  compileSdkVersion 27
+  compileSdkVersion 28
   defaultConfig {
     applicationId "com.sdex.id"
     minSdkVersion 26
-    targetSdkVersion 27
+    targetSdkVersion 30
     versionCode 1
     versionName "1.1"
     testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
   }
   buildTypes {
     release {
-      minifyEnabled false
+      signingConfig signingConfigs.debug
+      minifyEnabled true
       proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
     }
   }
