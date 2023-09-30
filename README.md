@@ -23,6 +23,4 @@ Anything you do that is described in this article is at your own risk. No one el
 
 ℹ️ [Check the blog post for more details](https://medium.com/@sdex/how-to-change-android-id-on-oreo-with-root-a71ebbc38cec)
 
-💾 [Download APK file](https://github.com/sdex/AndroidIDeditor/releases/tag/1.1)
-
 💰 [Sponsor this project](https://www.buymeacoffee.com/sdex)
